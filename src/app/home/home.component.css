@@ -1,0 +1,8 @@
+.card{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background: palevioletred;
+    width: 300px;
+    height: 320px;
+}

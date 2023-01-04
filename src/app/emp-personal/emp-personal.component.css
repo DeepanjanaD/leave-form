@@ -1,0 +1,96 @@
+.container{
+    border-radius: 15px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+#col2{
+    text-align: end;
+}
+
+
+.details{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+ul{
+    padding: 0px;
+}
+
+ul li{
+    display: inline-block;
+    padding-right: 5px;
+    
+}
+
+i{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.tophead{
+    line-height: 0px;
+}
+
+.container .text-center{
+    background: #fff;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+.row{
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+hr{
+    border-width: 3px;
+}
+
+
+
+
+
+/* From src code */
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+    color: #fff;
+    background-color: #003b9a;
+}
+
+.icon-link>.bi {
+    margin-top: .125rem;
+    margin-left: .125rem;
+    fill: currentcolor;
+    transition: transform .25s ease-in-out;
+}
+
+.icon-link:hover>.bi {
+    transform: translate(.25rem);
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+
+.text-shadow-1 {
+    text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25);
+}
+
+.text-shadow-2 {
+    text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25);
+}
+
+.text-shadow-3 {
+    text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25);
+}
+
+
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+}

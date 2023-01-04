@@ -1,0 +1,40 @@
+#DateLabel {
+    position: relative;
+    line-height: 0;
+}
+
+#Date {
+    cursor: pointer;
+    position: relative;
+  }
+
+#Date::-webkit-calendar-picker-indicator{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    color: transparent;
+    background: transparent;
+    cursor: pointer;
+    
+}
+
+#LoginTime {
+    cursor: pointer;
+    position: relative;
+  }
+
+#LoginTime::-webkit-calendar-picker-indicator{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    color: transparent;
+    background: transparent;
+    cursor: pointer;
+    
+}

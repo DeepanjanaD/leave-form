@@ -1,0 +1,36 @@
+
+#Heading {
+    color: #003b9a;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+
+/* RADIO LIST */
+.list-group-checkable .list-group-item {
+    cursor: pointer;
+    opacity: .6;
+}
+
+.list-group-item-check {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    
+}
+
+.list-group-item-check:hover+.list-group-item {
+    background-color: var(--bs-light);
+}
+
+.list-group-item-check:checked+.list-group-item {
+    color: #fff;
+    background-color: #003b9a;
+    opacity: 1;
+}
+
+.list-group-item-check[disabled]+.list-group-item,
+.list-group-item-check:disabled+.list-group-item {
+    pointer-events: none;
+    filter: none;
+    /* opacity: .5; */
+}
